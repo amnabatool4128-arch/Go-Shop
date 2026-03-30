@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BannerImage from "../../assets/banner.jpg";
+
 
 const Banner = () => {
   const initialTime = 10 * 60 * 60;
