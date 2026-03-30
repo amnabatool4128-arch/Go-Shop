@@ -16,7 +16,7 @@ const Navbar = ({
       className={`bg-white fixed top-0 left-0 right-0 transition-all duration-300 z-30 ${isScrolled ? "shadow-xl" : ""}`}
     >
       {/* Logo */}
-      <nav className="max-w-[1400px] md:px-12 px-2 md:py-10 py-2 mx-auto flex items-center sm:flex-row flex-col justify-between h-[12vh] md:h-[14vh] gap-2">
+      <nav className="max-w-[1400px] md:px-12 px-2 md:py-10 py-2 mx-auto flex items-center sm:flex-row flex-col justify-between h-[14vh] gap-2">
         <div className="flex items-center  gap-1">
           <h1 className="lg:text-2xl sm:text-xl font-bold text-[14px] tracking-wide">
             G<span className="text-blue-800">O</span>-Shop
@@ -46,7 +46,7 @@ const Navbar = ({
               onFocus={handleScroll}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <button className="flex items-center justify-center md:w-10 md:h-10 w-6 h-6 rounded-full bg-blue-700 text-white text-lg sm:text-xs transition-all duration-300  hover:scale-110">
+            <button className="flex items-center justify-center md:w-10 md:h-10 w-8 h-8 rounded-full bg-blue-700 text-white text-lg sm:text-xs transition-all duration-300  hover:scale-110">
               <FaSearch />
             </button>
           </div>
